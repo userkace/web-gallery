@@ -1,0 +1,69 @@
+:root {
+    --purple: #8b51fe;
+}
+nav{
+    font-family: 'Pixelify Sans', cursive;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    background-color: #555;
+}
+#logo{
+    padding: 1.3em;
+    float: left;
+}
+.logo{
+    height: auto;
+    width: 2em;
+}
+#links{
+    font-size: 1.5em;
+    padding: 1em;
+    float: right;
+}
+.links{
+    color: white;
+    padding-left: 1em;
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: underline;
+    color: var(--purple);
+}
+footer{
+    font-family: 'Martian Mono', monospace;
+    display: block;
+    flex-direction: column;
+    position: fixed;
+    padding: 1em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #555;
+}
+#copyright{
+    text-decoration: none;
+    color: white;
+}
+#copyright:hover{
+    text-decoration: underline;
+    color: var(--purple);
+}
+.copyright{
+    float: left;
+}
+.footer-links{
+    float: right;
+    padding-right: 1em;
+    margin-right: 1em;
+}
+.footer-logo{
+    float: right;
+    height:2em;
+    margin-right:1em;
+}
